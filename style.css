@@ -1,0 +1,55 @@
+h1{
+    color:brown;
+    font-family: 'Dongle', sans-serif;
+
+}
+h2,p{
+    color:peru;
+}
+.coding{
+    color:brown;
+} 
+
+body{
+    margin: 0 auto;
+    text-align:center;
+}
+
+
+div{
+    margin: 20px 30px;
+    border: 6px solid blue;
+    padding:20px 6px
+}
+
+*{
+    box-sizing:border-box;
+}
+html{
+    font-size:20px;
+}
+div{
+    height:80vh;
+    width:50vh;
+}
+img{
+    max-width: 100%;
+    object-fit: fill;
+}
+.container{
+    overflow:auto;
+    border-width: 2px;
+    border-style: solid;
+    border-color: red;
+    border-radius: 20px;
+    background-color:yellowgreen;
+    background-image:url(thumbnail.jpg);
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position:center;
+}
+div.pink, div.blue{
+    width: 500px;
+    height: 500px;
+    float:left;
+}
